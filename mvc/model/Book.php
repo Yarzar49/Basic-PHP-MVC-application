@@ -2,9 +2,9 @@
 
 class Book {
 
-    private $title;
-    private $author;
-    private $description;
+    public $title;
+    public $author;
+    public $description;
 
     public function __construct($title, $author, $description) {
         $this->title = $title;
@@ -13,3 +13,4 @@ class Book {
     }
 
 }
+
